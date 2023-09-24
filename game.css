@@ -1,0 +1,157 @@
+/* body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;  
+  font-size: 20px;
+  float: center;
+  margin-top: 100px ;
+}
+
+.line {
+    text-align: center;
+    margin: 15px ;
+}
+
+.box1 {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  margin: 1px 4px 1px 1px;
+  padding: 1px 15px 1px 15px;
+  font-size: 60px;
+  font-family: Monospace;
+  display: inline;  
+}
+
+.botton{
+  background-color: rgb(87, 84, 84);
+  color: black;
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 7px;
+  font-family: Monospace;
+  text-align: center;
+  border-radius: 15%;
+} */
+
+
+/*************************************/
+
+ /* body {
+  background-color: rgb(99, 94, 94); 
+  font-size: 20px;
+  margin-top: 100px ;
+}
+.a{
+  text-align: center;
+  padding-top: 90px;
+}
+.b{
+  font-size: 28px;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+} */
+
+
+/**************************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
+
+h1 {
+  background: #52d1e2;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  background: #2BC0E4;
+  background: -webkit-linear-gradient(to left, #2BC0E4, #EAECC6);
+  background: linear-gradient(to left, #2BC0E4, #EAECC6);
+}
+
+li {
+  background: white;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  height: 40px;
+  border-style: none;
+  padding: 13px 13px 13px 20px;
+  color: #2980b9;
+  width: 100%;
+}
+
+input:focus {
+  background: #f7f7f7;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#container {
+  background: #f7f7f7;
+  width: 360px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0.1);
+}
+
+.completed {
+  color: lightslategray;
+  text-decoration: line-through;
+}
+
+.blue {
+  color: blue;
+}
+
+span {
+  background-color: #e74c3c;
+  margin-right: 20px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+.fa-plus {
+  float: right;
+}
+
+.footer{
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: 580px;
+  font-size: 20px;
+  border-radius: 10px;
+}
